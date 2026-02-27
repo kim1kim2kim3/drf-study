@@ -24,5 +24,8 @@ print(f"get_response.text() : {type(get_response.text)}")
 print(f"get_response.json() : {get_response.json()}") # json 입력을 받아서 출력
 print(f"get_response.json() : {type(get_response.json())}") # json 입력을 받아서 출력
 
+print(f"get_response.json() : {get_response.json()['message']}") # json 입력을 받아서 출력
+print(f"get_response.json() : {type(get_response.json()['message'])}") # json 입력을 받아서 출력
+
 print(f"get_response.status_code : {get_response.status_code}") # 응답 상태 코드 출력
 
